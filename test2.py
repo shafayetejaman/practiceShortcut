@@ -1,43 +1,25 @@
-# Problem 11: Select and Delete
-# Task: Delete the `hello_world` function and its docstring using shortcuts.
-# Hint: Use `Ctrl + L` to select lines, or `Shift + Down Arrow` for manual selection.
-#       Then press `Delete` or `Backspace` to remove the block.
-def helloWorld():
-    """
-    This function prints 'Hello, World!'.
-    """
-    print("Hello, World!")
-
-
 # Problem 12: Create a New Line Above
 # Task: Insert a new line above the `return` statement and add a print statement:
 #       print("Adding two numbers").
 # Hint: Place the cursor on the line with `return` and press `Ctrl + Shift + Enter`
 #       to insert a new line above. Type the new code.
+
 def Add(a, b):
     return a + b
 
 
-# Problem 13: Select a Block
-# Task: Select the entire block of the `divide` function.
-# Hint: Place the cursor inside the function and press `Ctrl + Shift + ]` to expand the selection.
-def Divide(a, b):
-    if b == 0:
-        return "Cannot divide by zero"
-    return a / b
-
-
 # Problem 14: Move Block of Code
-# Task: Move the entire `divide` function to appear above the `add` function.
+# Task: Move the entire `divide` function to appear above the `adder` function.
 # Hint: Select the `divide` function, then use `Alt + Up Arrow` to move it up.
-def addder(a, b):
+    
+def adder(a, b):
     return a + b
-
 
 def divide(a, b):
     if b == 0:
         return "Cannot divide by zero"
     return a / b
+
 
 
 # Problem 16: Multi-Cursor on Multiple Lines
@@ -65,10 +47,11 @@ def assign(Hello: str) -> None:
 
 
 
-# Problem 19: Duplicate and Modify
+# Problem 19: Duplicate and Modify and delete the first
 # Task: Duplicate the last `print` statement and change the number to `42`.
 # Hint: Place the cursor on the line, then press `Shift + Alt + Down Arrow` to duplicate.
 #       Edit the duplicated line as needed.
+
 print(10)
 print(20)
 print(30)
@@ -101,6 +84,12 @@ def hello_world():
 def add(a, b):
     return a + b
 
+
+
+# Problem 24: Goto previous cursor possion
+# Task: Switch to the next cursor or previous cursor position
+# Hint: Use 'Alt+[' \ ']'
+# No code required for this task.
 
 # Problem 25: Navigate Between Open Tabs
 # Task: Switch to the next tab in your open files.
