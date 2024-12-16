@@ -40,12 +40,6 @@ def divide(a, b):
     return a / b
 
 
-# Problem 15: Split One Line into Multiple Lines
-# Task: Split the following dictionary into multiple lines for readability.
-# Hint: Place the cursor where you want to split and press `Enter`. Repeat as needed.
-settings = {"theme": "dark", "font_size": 12, "language": "en", "show_tutorial": True}
-
-
 # Problem 16: Multi-Cursor on Multiple Lines
 # Task: Add a default value `= 0` to all the function arguments.
 # Hint: Place the cursor on the first parameter. Press `Alt + Click` on each argument
@@ -58,7 +52,7 @@ def calculate_total(price, discount, tax):
 # Task: Use a quick fix to resolve the undefined variable `total` by creating a new variable.
 # Hint: Hover over `total` with your mouse or place the cursor on it and press `Alt + /`
 #       to view and apply the quick fix.
-print(settings)
+print(settings) # type: ignore
 
 
 # Problem 18: Surround with Quotes
@@ -96,13 +90,6 @@ for d in data:
     print(d)
 
 
-# Problem 22: Extract Variable
-# Task: Extract the `3.14` into a variable called `pi`.
-# Hint: Select `3.14`, then press `Ctrl + .` and choose "Extract to variable".
-def calculate_radius(radius: int) -> None:
-    area = 3.14 * radius**2
-
-
 # Problem 23: Collapse and Expand Code
 # Task: Collapse the `hello_world` function and then expand it.
 # Hint: Click the `-` icon next to the function or press `Ctrl + K, Ctrl + 0`
@@ -113,14 +100,6 @@ def hello_world():
 
 def add(a, b):
     return a + b
-
-
-# Problem 24: Open Command Palette
-# Task: Open the Command Palette and search for a command to convert indentation to spaces.
-# Hint: Press `Ctrl + Shift + P` to open the Command Palette. Search for "Indentation: Convert to Spaces".
-# Code with mixed tabs and spaces
-def function():
-    print("Hello")
 
 
 # Problem 25: Navigate Between Open Tabs
