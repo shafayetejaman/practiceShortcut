@@ -75,8 +75,6 @@ def print_message(message):
 
 print_message("Hello!")
 
-# Hint: Use `F2` to rename symbols globally.
-
 
 # Problem 8: Navigate to a Specific Symbol
 # Task: Quickly navigate to the `multiply` function definition.
@@ -93,15 +91,6 @@ def multiply(a, b):
 print(add(2, 3))
 
 # Hint: Use `Ctrl + P` (Windows/Linux) or `Cmd + P` (Mac) to open the file navigator, then type `@multiply`.
-
-
-# Problem 9: Open Integrated Terminal
-# Task: Open the terminal, run the following code, and execute the file.
-
-# Save this file as script.py
-print("Code Editing Practice!")
-
-# Hint: Use `` Ctrl + ` `` to open the terminal, then run the command `python script.py`.
 
 
 # Problem 10: Replace All Instances
