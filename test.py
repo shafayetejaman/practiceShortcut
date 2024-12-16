@@ -20,10 +20,10 @@ print("End of Program")
 
 
 # Problem 3: Select and Comment
-# Task: Comment out the `add` function using the shortcut.
+# Task: Comment out the `Add` function using the shortcut.
 
 
-def add(a, b):
+def Add(a, b):
     return a + b
 
 
