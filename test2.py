@@ -126,3 +126,67 @@ class NewUser3:
 class NewUser4:
     def __init__(self, name) -> None:
         self.name = name
+
+# Problem 29: Code Folding by Level
+# Task: Practice folding code at different indentation levels
+# Hint: Use Ctrl+K Ctrl+2 to fold level 2, Ctrl+K Ctrl+3 for level 3, etc.
+def outer_function():
+    def inner_function1():
+        print("Inner 1")
+        for i in range(3):
+            print(i)
+    
+    def inner_function2():
+        print("Inner 2")
+        if True:
+            print("Nested")
+            print("More nested")
+    
+    inner_function1()
+    inner_function2()
+
+
+# Problem 30: Multi-cursor Column Selection
+# Task: Add type hints to all parameters simultaneously
+# Hint: Use Alt+Shift+Click or Alt+Shift+drag
+def process_user_data(name, age, email):
+    return {
+        "name": name,
+        "age": age,
+        "email": email
+    }
+
+
+# Problem 31: Split Editor and Compare
+# Task: Practice viewing two parts of the file simultaneously
+# Hint: Ctrl+\ to split editor, Alt+Shift+1 for single view
+def part_one():
+    print("This is in the top part")
+
+def part_two():
+    print("This is in the bottom part")
+
+
+# Problem 32: Quick Documentation
+# Task: View documentation for built-in functions
+# Hint: Hover over function or Ctrl+K Ctrl+I
+sorted([3, 1, 2])
+len("test")
+sum([1, 2, 3])
+
+
+# Problem 33: Extract Variable Refactoring
+# Task: Extract the calculation into a variable
+# Hint: Select expression, Ctrl+Shift+P, type "Extract Variable"
+def calculate_price():
+    return 100 * 1.2 + (100 * 1.2 * 0.15)
+
+
+# Problem 34: Toggle Line Comment
+# Task: Comment/uncomment multiple lines at once
+# Hint: Select lines and use Ctrl+/
+def debug_section():
+    x = 10
+    y = 20
+    z = 30
+    print(x + y + z)
