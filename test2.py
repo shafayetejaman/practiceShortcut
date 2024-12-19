@@ -11,7 +11,7 @@ def Add(a, b):
 # Problem 14: Move Block of Code
 # Task: Move the entire `divide` function to appear above the `adder` function.
 # Hint: Select the `divide` function, then use `Alt + Up Arrow` to move it up.
-    
+
 def adder(a, b):
     return a + b
 
@@ -19,7 +19,6 @@ def divide(a, b):
     if b == 0:
         return "Cannot divide by zero"
     return a / b
-
 
 
 # Problem 16: Multi-Cursor on Multiple Lines
@@ -43,8 +42,6 @@ print(settings) # type: ignore
 #       to open the Command Palette and search for "Surround with Quotes".
 def assign(Hello: str) -> None:
     greeting = Hello
-
-
 
 
 # Problem 19: Duplicate and Modify and delete the first
@@ -85,13 +82,47 @@ def add(a, b):
     return a + b
 
 
-
 # Problem 24: Goto previous cursor possion
 # Task: Switch to the next cursor or previous cursor position
-# Hint: Use 'Alt+[' \ ']'
+# Hint: Use "Alt+'[' \ ']'"
 # No code required for this task.
 
 # Problem 25: Navigate Between Open Tabs
 # Task: Switch to the next tab in your open files.
 # Hint: Use `Ctrl + Tab` to cycle through open tabs or `Ctrl + Shift + Tab` to go backward.
 # No code required for this task.
+
+# Problem 26: Goto next reference
+# Task: Switch to the next reference or previous reference position
+# Hint: Use 'Ctrl+m'
+
+class NewUser:
+    def __init__(self, name) -> None:
+        self.name = name
+
+user = NewUser("akash")
+print(user.name)
+user.name = "shafayet"
+print(user.name)
+
+# Problem 27: indent farther
+# Task: Switch to the next reference or previous reference position
+# Hint: Use "Ctrl+'[' \ ']'"
+
+
+class NewUser2:
+    def __init__(self, name) -> None:
+        self.name = name
+
+# Problem 28: add propertites to both class eatch line simultaniasly
+# Task: Switch to the next reference or previous reference position
+# Hint: Use "Ctrl+q"
+
+
+class NewUser3:
+    def __init__(self, name) -> None:
+        self.name = name
+
+class NewUser4:
+    def __init__(self, name) -> None:
+        self.name = name
