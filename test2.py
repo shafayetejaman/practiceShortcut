@@ -127,24 +127,6 @@ class NewUser4:
     def __init__(self, name) -> None:
         self.name = name
 
-# Problem 29: Code Folding by Level
-# Task: Practice folding code at different indentation levels
-# Hint: Use Ctrl+K Ctrl+2 to fold level 2, Ctrl+K Ctrl+3 for level 3, etc.
-def outer_function():
-    def inner_function1():
-        print("Inner 1")
-        for i in range(3):
-            print(i)
-    
-    def inner_function2():
-        print("Inner 2")
-        if True:
-            print("Nested")
-            print("More nested")
-    
-    inner_function1()
-    inner_function2()
-
 
 # Problem 30: Multi-cursor Column Selection
 # Task: Add type hints to all parameters simultaneously
@@ -167,9 +149,9 @@ def part_two():
     print("This is in the bottom part")
 
 
-# Problem 32: Quick Documentation
-# Task: View documentation for built-in functions
-# Hint: Hover over function or Ctrl+K Ctrl+I
+# Problem 32: Quick suggestion
+# Task: replace function with another function
+# Hint: Hover over function Ctrl+spacebar
 sorted([3, 1, 2])
 len("test")
 sum([1, 2, 3])
@@ -177,7 +159,7 @@ sum([1, 2, 3])
 
 # Problem 33: Extract Variable Refactoring
 # Task: Extract the calculation into a variable
-# Hint: Select expression, Ctrl+Shift+P, type "Extract Variable"
+# Hint: Select expression, alt+/, select "Extract Variable"
 def calculate_price():
     return 100 * 1.2 + (100 * 1.2 * 0.15)
 
