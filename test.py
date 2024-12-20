@@ -3,7 +3,7 @@
 
 
 def greet_user(name):
-    return f"Hello, {name}!"
+    return f"Hellow, {name}!"
 
 
 # Hint: Use `Shift + Alt + Down Arrow` (Windows/Linux) or `Shift + Option + Down Arrow` (Mac) to duplicate the line.
