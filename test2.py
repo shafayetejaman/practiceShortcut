@@ -33,7 +33,7 @@ def calculate_total(price, discount, tax):
 
 
 # Problem 17: Refactor
-# Task: ask ai what it is
+# Task: Ask ai what is the ouput
 # Hint: Hover over `total` with your mouse or place the cursor on it and press `Ctrl+Shift+R`
 #       to view and apply the quick fix.
 print(settings)  # type: ignore
