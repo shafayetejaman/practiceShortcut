@@ -4,6 +4,7 @@
 # Hint: Place the cursor on the line with `return` and press `Ctrl + Shift + Enter`
 #       to insert a new line above. Type the new code.
 
+
 def Add(a, b):
     return a + b
 
@@ -12,8 +13,10 @@ def Add(a, b):
 # Task: Move the entire `divide` function to appear above the `adder` function.
 # Hint: Select the `divide` function, then use `Alt + Up Arrow` to move it up.
 
+
 def adder(a, b):
     return a + b
+
 
 def divide(a, b):
     if b == 0:
@@ -29,11 +32,11 @@ def calculate_total(price, discount, tax):
     return price - discount + tax
 
 
-# Problem 17: Quick Fix Suggestions
-# Task: Use a quick fix to resolve the undefined variable `total` by creating a new variable.
-# Hint: Hover over `total` with your mouse or place the cursor on it and press `Alt + /`
+# Problem 17: Refactor
+# Task: ask ai what it is
+# Hint: Hover over `total` with your mouse or place the cursor on it and press `Ctrl+Shift+R`
 #       to view and apply the quick fix.
-print(settings) # type: ignore
+print(settings)  # type: ignore
 
 
 # Problem 18: Surround with Quotes
@@ -96,9 +99,11 @@ def add(a, b):
 # Task: Switch to the next reference or previous reference position
 # Hint: Use 'Ctrl+m'
 
+
 class NewUser:
     def __init__(self, name) -> None:
         self.name = name
+
 
 user = NewUser("akash")
 print(user.name)
@@ -114,6 +119,7 @@ class NewUser2:
     def __init__(self, name) -> None:
         self.name = name
 
+
 # Problem 28: add propertites to both class eatch line simultaniasly
 # Task: Switch to the next reference or previous reference position
 # Hint: Use "Ctrl+q"
@@ -122,6 +128,7 @@ class NewUser2:
 class NewUser3:
     def __init__(self, name) -> None:
         self.name = name
+
 
 class NewUser4:
     def __init__(self, name) -> None:
@@ -132,11 +139,7 @@ class NewUser4:
 # Task: Add type hints to all parameters simultaneously
 # Hint: Use Alt+Shift+Click or Alt+Shift+drag
 def process_user_data(name, age, email):
-    return {
-        "name": name,
-        "age": age,
-        "email": email
-    }
+    return {"name": name, "age": age, "email": email}
 
 
 # Problem 31: Split Editor and Compare
@@ -144,6 +147,7 @@ def process_user_data(name, age, email):
 # Hint: Ctrl+\ to split editor, Alt+Shift+1 for single view
 def part_one():
     print("This is in the top part")
+
 
 def part_two():
     print("This is in the bottom part")
