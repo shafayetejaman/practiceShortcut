@@ -45,6 +45,19 @@ else:
 
 # Hint: Use `Ctrl + D` (Windows/Linux) or `Cmd + D` (Mac) to select the next occurrence.
 
+# Problem 5: Multi-Cursor Editing all occurrence
+# Task: Change all variable names `Temp` to `Temperature` simultaneously.
+
+Temp = 25
+if Temp > 30:
+    print("It's hot!")
+elif Temp > 40: 
+    print("It's very hot!")
+elif Temp > 50: 
+    print("It's supper hot!")
+
+# Hint: Use `Ctrl + D` (Windows/Linux) or `Cmd + Shift + L` (Mac) to select the next occurrence.
+
 
 # Problem 5: Format Document
 # Task: Format the following messy code snippet.
