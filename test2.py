@@ -1,6 +1,6 @@
 # Problem 12: Create a New Line Above
 # Task: Insert a new line above the `return` statement and add a print statement:
-#       print("Adding two numbers").
+#       print("Adding two numbers")
 # Hint: Place the cursor on the line with `return` and press `Ctrl + Shift + Enter`
 #       to insert a new line above. Type the new code.
 
