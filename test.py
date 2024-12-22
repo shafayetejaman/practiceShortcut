@@ -51,9 +51,9 @@ else:
 Temp = 25
 if Temp > 30:
     print("It's hot!")
-elif Temp > 40: 
+elif Temp > 40:
     print("It's very hot!")
-elif Temp > 50: 
+elif Temp > 50:
     print("It's supper hot!")
 
 # Hint: Use `Ctrl + D` (Windows/Linux) or `Cmd + Shift + L` (Mac) to select the next occurrence.
@@ -112,3 +112,18 @@ print(add(2, 3))
 settings = {"background_color": "white", "text_color": "black"}
 
 # Hint: Use `Ctrl + H` (Windows/Linux) or `Cmd + Shift + H` (Mac) to replace all.
+
+# Problem 11 Transform to upper case for All Instances
+# Task: Uppercase all occurrences of the word `font` with `FONT`.
+
+font = "arial"
+font = "new roman"
+font = "roboto"
+font = "nard font"
+font = "arial"
+font = "new roman"
+font = "roboto"
+font = "nard font"
+
+
+# Hint: Use `Ctrl + H` (Windows/Linux) or `Cmd + Alt + up/down` then "Ctrl + U" (Mac) to replace all.
