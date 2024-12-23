@@ -126,4 +126,5 @@ font = "roboto"
 font = "nard font"
 
 
-# Hint: Use `Ctrl + H` (Windows/Linux) or `Cmd + Alt + up/down` then "Ctrl + U" (Mac) to replace all.
+# Hint: Use  `Cmd + Alt + up/down` to replace all.
+
