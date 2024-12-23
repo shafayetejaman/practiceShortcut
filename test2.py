@@ -95,6 +95,12 @@ def add(a, b):
 # Hint: Use `Ctrl + Tab` to cycle through open tabs or `Ctrl + < / >` to go backward and forword.
 # No code required for this task.
 
+# Problem 25: Navigate Between files
+# Task: Switch to another files.
+# Hint: Use `Ctrl + P` to open or go to file.
+# No code required for this task.
+
+
 # Problem 26: Goto next reference
 # Task: Switch to the next reference or previous reference position
 # Hint: Use 'Ctrl+m'
