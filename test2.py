@@ -75,8 +75,8 @@ for d in data:
 
 # Problem 23: Collapse and Expand Code
 # Task: Collapse the `hello_world` function and then expand it.
-# Hint: Click the `-` icon next to the function or press `Ctrl + K, Ctrl + 0`
-#       to collapse all code. Press `Ctrl + K, Ctrl + J` to expand all.
+# Hint: Click the `-` icon next to the function or press `Ctrl + j`
+#       to collapse all code. Press `Ctrl + Shift + J` to expand all.
 def hello_world():
     print("Hello, World!")
 
@@ -92,7 +92,7 @@ def add(a, b):
 
 # Problem 25: Navigate Between Open Tabs
 # Task: Switch to the next tab in your open files.
-# Hint: Use `Ctrl + Tab` to cycle through open tabs or `Ctrl + Shift + Tab` to go backward.
+# Hint: Use `Ctrl + Tab` to cycle through open tabs or `Ctrl + < / >` to go backward and forword.
 # No code required for this task.
 
 # Problem 26: Goto next reference
