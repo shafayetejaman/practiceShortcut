@@ -6,7 +6,7 @@ def greet_user(name):
     return f"Hellow, {name}!"
 
 
-# Hint: Use `Shift + Alt + Down Arrow` (Windows/Linux) or `Shift + Option + Down Arrow` (Mac) to duplicate the line.
+# Hint: Use `Shift + Alt + Down Arrow` to duplicate the line.
 
 
 # Problem 2: Move a Line
@@ -16,7 +16,7 @@ print("This is a test")
 print("Hello, World!")
 print("End of Program")
 
-# Hint: Use `Alt + Up Arrow` (Windows/Linux) or `Option + Up Arrow` (Mac) to move lines.
+# Hint: Use `Alt + Up Arrow` to move lines.
 
 
 # Problem 3: Select and Comment
@@ -31,7 +31,7 @@ def subtract(a, b):
     return a - b
 
 
-# Hint: Use `Ctrl + /` (Windows/Linux) or `Cmd + /` (Mac) to toggle comments.
+# Hint: Use `Ctrl + /` to toggle comments.
 
 
 # Problem 4: Multi-Cursor Editing
@@ -43,7 +43,7 @@ if temp > 30:
 else:
     print("It's cool!")
 
-# Hint: Use `Ctrl + D` (Windows/Linux) or `Cmd + D` (Mac) to select the next occurrence.
+# Hint: Use `Ctrl + D` to select the next occurrence.
 
 # Problem 5: Multi-Cursor Editing all occurrence
 # Task: Change all variable names `Temp` to `Temperature` simultaneously.
@@ -56,7 +56,7 @@ elif Temp > 40:
 elif Temp > 50:
     print("It's supper hot!")
 
-# Hint: Use `Ctrl + D` (Windows/Linux) or `Cmd + Shift + L` (Mac) to select the next occurrence.
+# Hint: Use `Ctrl + D` to select the next occurrence.
 
 
 # Problem 5: Format Document
@@ -67,7 +67,7 @@ def sum(a, b):
     return a + b
 
 
-# Hint: Use `Shift + Alt + F` (Windows/Linux) or `Shift + Option + F` (Mac) to format the code.
+# Hint: Use `Shift + Alt + F`  to format the code.
 
 
 # Problem 6: Split and Merge Lines
@@ -75,7 +75,7 @@ def sum(a, b):
 
 user = {"name": "John", "age": 30, "is_admin": True}
 
-# Hint: Use `Ctrl + Enter` (Windows/Linux) or `Cmd + Enter` (Mac) to insert a new line below.
+# Hint: Use `Ctrl + Enter` to insert a new line below.
 
 
 # Problem 7: Rename a Function
@@ -103,7 +103,7 @@ def multiply(a, b):
 
 print(add(2, 3))
 
-# Hint: Use `Ctrl + P` (Windows/Linux) or `Cmd + P` (Mac) to open the file navigator, then type `@multiply`.
+# Hint: Use `Ctrl + P`  to open the file navigator, then type `@multiply`.
 
 
 # Problem 10: Replace All Instances
@@ -111,7 +111,7 @@ print(add(2, 3))
 
 settings = {"background_color": "white", "text_color": "black"}
 
-# Hint: Use `Ctrl + H` (Windows/Linux) or `Cmd + Shift + H` (Mac) to replace all.
+# Hint: Use `Ctrl + H` to replace all.
 
 # Problem 11 Transform to upper case for All Instances
 # Task: Uppercase all occurrences of the word `font` with `FONT`.
