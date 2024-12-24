@@ -53,7 +53,7 @@ elif Temp > 50:
 
 
 def sum(a, b):
-    return a + b
+        return a + b
 
 
 # Hint: Use `Shift + Alt + F`  to format the code.
@@ -116,4 +116,3 @@ font = "nard font"
 
 
 # Hint: Use  `Cmd + Alt + up/down` to replace all.
-
