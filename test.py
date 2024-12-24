@@ -56,7 +56,7 @@ def sum(a, b):
         return a + b
 
 
-# Hint: Use `Shift + Alt + F`  to format the code.
+# Hint: Use `ctrl + s`  to save and format the code.
 
 
 # Problem 6: Split and Merge Lines
