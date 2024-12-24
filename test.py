@@ -64,7 +64,7 @@ def sum(a, b):
 
 user = {"name": "John", "age": 30, "is_admin": True}
 
-# Hint: Use `Ctrl + Enter` to insert a new line below.
+# Hint: Use `alt + click` to inset cursor then `enter` then `ctrl + s` to insert a new line.
 
 
 # Problem 7: Rename a Function
