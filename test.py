@@ -34,17 +34,6 @@ def subtract(a, b):
 # Hint: Use `Ctrl + /` to toggle comments.
 
 
-# Problem 4: Multi-Cursor Editing
-# Task: Change all variable names `temp` to `temperature` simultaneously.
-
-temp = 25
-if temp > 30:
-    print("It's hot!")
-else:
-    print("It's cool!")
-
-# Hint: Use `Ctrl + D` to select the next occurrence.
-
 # Problem 5: Multi-Cursor Editing all occurrence
 # Task: Change all variable names `Temp` to `Temperature` simultaneously.
 
