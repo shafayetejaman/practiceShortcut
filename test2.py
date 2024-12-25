@@ -145,7 +145,7 @@ def process_user_data(name, age, email):
 
 # Problem 31: Split Editor and Compare
 # Task: Practice viewing two parts of the file simultaneously
-# Hint: Ctrl+\ to split editor, Alt+Shift+\ for single view
+# Hint: Ctrl+\ to toggle split editor
 def part_one():
     print("This is in the top part")
 
