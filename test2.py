@@ -85,11 +85,6 @@ def add(a, b):
     return a + b
 
 
-# Problem 24: Goto previous cursor possion
-# Task: Switch to the next cursor or previous cursor position
-# Hint: Use "Alt+'[' \ ']'"
-# No code required for this task.
-
 # Problem 25: Navigate Between Open Tabs
 # Task: Switch to the next tab in your open files.
 # Hint: Use `Ctrl + Tab` to cycle through open tabs or `Ctrl + < / >` to go backward and forword.
