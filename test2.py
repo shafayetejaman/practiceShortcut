@@ -138,14 +138,14 @@ class NewUser4:
 
 # Problem 30: Multi-cursor Column Selection
 # Task: Add type hints to all parameters simultaneously
-# Hint: Use Alt+Shift+Click or Alt+Shift+drag
+# Hint: Use Alt+Click
 def process_user_data(name, age, email):
     return {"name": name, "age": age, "email": email}
 
 
 # Problem 31: Split Editor and Compare
 # Task: Practice viewing two parts of the file simultaneously
-# Hint: Ctrl+\ to split editor, Alt+Shift+1 for single view
+# Hint: Ctrl+\ to split editor, Alt+Shift+\ for single view
 def part_one():
     print("This is in the top part")
 
