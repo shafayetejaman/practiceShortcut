@@ -136,3 +136,14 @@ font = "roboto"
 font = "nard font"
 
 # Hint: Use  `Cmd + U ` to go to the last cursor possition.
+
+
+# Problem 14 remove the text from the ""
+# Task: Use shortcut to go the end of the line and remove evry thing iside the "".
+
+font = "arial"
+font = "new roman"
+font = "roboto"
+font = "nard font"
+
+# Hint: Use `Ctrl + Shift + =` to select the block and  `Shift + Alt + i ` to make cursor at the end.
