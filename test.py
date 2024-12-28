@@ -92,7 +92,7 @@ def multiply(a, b):
 
 print(add(2, 3))
 
-# Hint: Use `Ctrl + P`  to open the file navigator, then type `@multiply`.
+# Hint: Use `Ctrl + o`  to open the file navigator, then type `@multiply`.
 
 
 # Problem 10: Replace All Instances
