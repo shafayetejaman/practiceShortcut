@@ -45,7 +45,7 @@ elif Temp > 40:
 elif Temp > 50:
     print("It's supper hot!")
 
-# Hint: Use `Ctrl + D` to select the next occurrence.
+# Hint: Use `Ctrl + Shift + L` to select the next occurrence.
 
 
 # Problem 5: Format Document
