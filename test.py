@@ -135,7 +135,7 @@ font = "new roman"
 font = "roboto"
 font = "nard font"
 
-# Hint: Use  `Cmd + U ` to go to the last cursor possition.
+# Hint: Use  `Cmd + U ` to go to the last cursor possition. 
 
 
 # Problem 14 remove the text from the ""
@@ -147,3 +147,21 @@ font = "roboto"
 font = "nardfont"
 
 # Hint: Use `Ctrl + Shift + =` to select the block and  `Shift + Alt + i ` to make cursor at the end.
+
+
+# Problem 15 open terminal 
+# Task: Use shortcut to quickly open the terminal both in workspace and integrated modes.
+
+# Hint: Use `Ctrl + ~` to sopen in workpace then and  `Shift + Alt + enter ` to open in integrated mode.
+
+
+# Problem 16 close a tab 
+# Task: Use shortcut to close a opened tab.
+
+# Hint: Use `Ctrl + w` to close the opend tab.
+
+
+# Problem 17 reopen a closed tab
+# Task: Use shortcut to quickly reopen last closed tab.
+
+# Hint: Use `Ctrl + shift + t` to reopen the tab.
