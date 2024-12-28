@@ -127,8 +127,8 @@ font = "nard font"
 
 # Hint: Use  `Cmd + y ` to go to the last edit cursor possition.
 
-# Problem 13 edit the lines and go to last cursor position
-# Task: Uppercase all occurrences of the word `font` with `FONT` then revrse it just after that.
+# Problem 13 go to each lines and go to last cursor position
+# Task: go to all the occurrence of the word then reverse travel just after that.
 
 font = "arial"
 font = "new roman"
@@ -142,8 +142,8 @@ font = "nard font"
 # Task: Use shortcut to go the end of the line and remove evry thing iside the "".
 
 font = "arial"
-font = "new roman"
+font = "newroman"
 font = "roboto"
-font = "nard font"
+font = "nardfont"
 
 # Hint: Use `Ctrl + Shift + =` to select the block and  `Shift + Alt + i ` to make cursor at the end.
