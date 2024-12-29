@@ -121,20 +121,6 @@ class NewUser2:
         self.name = name
 
 
-# Problem 28: add propertites to both class eatch line simultaniasly
-# Task: Switch to the next reference or previous reference position
-# Hint: Use "Ctrl+q"
-
-
-class NewUser3:
-    def __init__(self, name) -> None:
-        self.name = name
-
-
-class NewUser4:
-    def __init__(self, name) -> None:
-        self.name = name
-
 
 # Problem 30: Multi-cursor Column Selection
 # Task: Add type hints to all parameters simultaneously
