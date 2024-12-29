@@ -124,7 +124,7 @@ class NewUser2:
 
 # Problem 31: Split Editor and Compare
 # Task: Practice viewing two parts of the file simultaneously
-# Hint: Ctrl+\ to toggle split editor
+# Hint: Ctrl+\ to open split editor then Alt+\ to toggle between them
 
 
 def part_one():
