@@ -64,19 +64,11 @@ print(30)
 settings = {"dark_mode": False, "notifications": False, "auto_save": False}
 
 
-# Problem 21: Highlight Word Instances
-# Task: Highlight all instances of the word `data` in the following snippet.
-# Hint: Place the cursor on the word `data` and press `Ctrl + D` repeatedly
-#       to select all instances.
-data = [1, 2, 3]
-for d in data:
-    print(d)
-
-
 # Problem 23: Collapse and Expand Code
 # Task: Collapse the `hello_world` function and then expand it.
 # Hint: Click the `-` icon next to the function or press `Ctrl + j`
 #       to collapse all code. Press `Ctrl + Shift + J` to expand all.
+
 def hello_world():
     print("Hello, World!")
 
