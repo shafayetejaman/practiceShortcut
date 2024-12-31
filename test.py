@@ -48,17 +48,6 @@ elif Temp > 50:
 # Hint: Use `Ctrl + Shift + L` to select the next occurrence.
 
 
-# Problem 5: Format Document
-# Task: Format the following messy code snippet.
-
-
-def sum(a, b):
-    return a + b
-
-
-# Hint: Use `ctrl + s`  to save and format the code.
-
-
 # Problem 6: Split and Merge Lines
 # Task: Split the first line into multiple lines for better readability.
 
@@ -135,7 +124,7 @@ font = "new roman"
 font = "roboto"
 font = "nard font"
 
-# Hint: Use  `Cmd + U ` to go to the last cursor possition. 
+# Hint: Use  `Cmd + U ` to go to the last cursor possition.
 
 
 # Problem 14 remove the text from the ""
@@ -149,13 +138,13 @@ font = "nardfont"
 # Hint: Use `Ctrl + Shift + =` to select the block and  `Shift + Alt + i ` to make cursor at the end.
 
 
-# Problem 15 open terminal 
+# Problem 15 open terminal
 # Task: Use shortcut to quickly open the terminal both in workspace and integrated modes.
 
 # Hint: Use `Ctrl + ~` to sopen in workpace then and  `Shift + Alt + enter ` to open in integrated mode.
 
 
-# Problem 16 close a tab 
+# Problem 16 close a tab
 # Task: Use shortcut to close a opened tab.
 
 # Hint: Use `Ctrl + w` to close the opend tab.
