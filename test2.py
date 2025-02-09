@@ -34,7 +34,7 @@ def calculate_total(price, discount, tax):
 
 # Problem 17: Code action
 # Task: Ask ai what is the output
-# Hint: Hover over `total` with your mouse or place the cursor on it and press `Alt+/`
+# Hint: Hover over `total` with your mouse or place the cursor on it and press `Alt+;`
 #       to view and apply the quick fix.
 print(settings)  # type: ignore
 
@@ -68,6 +68,7 @@ settings = {"dark_mode": False, "notifications": False, "auto_save": False}
 # Task: Collapse the `hello_world` function and then expand it.
 # Hint: Click the `-` icon next to the function or press `Ctrl + j`
 #       to collapse all code. Press `Ctrl + Shift + J` to expand all.
+
 
 def hello_world():
     print("Hello, World!")
@@ -113,7 +114,6 @@ class NewUser2:
         self.name = name
 
 
-
 # Problem 31: Split Editor and Compare
 # Task: Practice viewing two parts of the file simultaneously
 # Hint: Ctrl+\ to open split editor then Alt+\ to toggle between them
@@ -137,7 +137,7 @@ sum([1, 2, 3])
 
 # Problem 33: Extract Variable Refactoring
 # Task: Extract the calculation into a variable
-# Hint: Select expression, alt+/, select "Extract Variable"
+# Hint: Select expression, Alt+;, select "Extract Variable"
 def calculate_price():
     return 100 * 1.2 + (100 * 1.2 * 0.15)
 
