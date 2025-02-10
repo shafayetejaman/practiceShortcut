@@ -89,7 +89,7 @@ print(add(2, 3))
 
 settings = {"background_color": "white", "text_color": "black"}
 
-# Hint: Use `Ctrl + H` to replace all.
+# Hint: Use `Ctrl + H` and `shift + enter/enter` to replace all.
 
 # Problem 11 Transform to upper case for All Instances
 # Task: Uppercase all occurrences of the word `font` with `FONT`.
