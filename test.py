@@ -53,7 +53,7 @@ elif Temp > 50:
 
 user = {"name": "John", "age": 30, "is_admin": True}
 
-# Hint: Use `alt + right` to inset `,` then `ctrl + s` to formate.
+# Hint: Use `alt + right` to inset `,` then `alt + shift + f` to formate.
 
 
 # Problem 7: Rename a Function
