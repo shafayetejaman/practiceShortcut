@@ -66,7 +66,7 @@ settings = {"dark_mode": False, "notifications": False, "auto_save": False}
 
 # Problem 23: Collapse and Expand Code
 # Task: Collapse the `hello_world` function and then expand it.
-# Hint: Click the `-` icon next to the function or press `Ctrl + j`
+# Hint: Click the `-` icon next to the function or press `shift + alt + j`
 #       to collapse all code. Press `Ctrl + Shift + J` to expand all.
 
 
