@@ -54,7 +54,7 @@ len("test")
 sum([1, 2, 3])
 
 # Problem 19: Duplicate and Modify and delete the first
-# Task: Duplicate the last `print` statement and change the number to `42`.
+# Task: Duplicate the last `print` statement and change the number to `32`.
 # Hint: Place the cursor on the line, then press `Shift + Alt + Down Arrow` to duplicate.
 #       Edit the duplicated line using `<lideer>a` to increment and `<lideer>x` to decrement the number
 #        and delete the line using `dd` 
