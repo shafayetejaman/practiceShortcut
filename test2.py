@@ -41,7 +41,7 @@ print(settings)  # type: ignore
 
 # Problem 18: Surround with Quotes
 # Task: Wrap the variable `greeting` with double quotes.
-# Hint: Select `Hello`, press `ysiw"`
+# Hint: Select `Hello`, press `ysw"`
 def assign(Hello: str) -> None:
     greeting = Hello
 
