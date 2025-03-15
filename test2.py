@@ -46,10 +46,18 @@ def assign(Hello: str) -> None:
     greeting = Hello
 
 
+# Problem 32: Convert the sorted functin to and array
+# Task: arr = [sorted([3, 1, 2])]
+# Hint: yss[
+sorted([3, 1, 2])
+len("test")
+sum([1, 2, 3])
+
 # Problem 19: Duplicate and Modify and delete the first
 # Task: Duplicate the last `print` statement and change the number to `42`.
 # Hint: Place the cursor on the line, then press `Shift + Alt + Down Arrow` to duplicate.
-#       Edit the duplicated line as needed.
+#       Edit the duplicated line using `<lideer>a` to increment and `<lideer>x` to decrement the number
+#        and delete the line using `dd` 
 
 print(10)
 print(20)
@@ -60,6 +68,12 @@ print(30)
 # Task: Replace all occurrences of `False` with `None`.
 # Hint: Press `Ctrl + H` to open Find and Replace. Type `False` in the "Find" field
 #       and `None` in the "Replace" field. Use `Alt + Enter` to replace all occurrences.
+settings = {"dark_mode": False, "notifications": False, "auto_save": False}
+
+
+# Problem 21: Replace "" with ''
+# Task: Replace all occurrences of "<word>" with '<word>'  
+# Hint: Press `cs"'` 
 settings = {"dark_mode": False, "notifications": False, "auto_save": False}
 
 
@@ -125,13 +139,6 @@ def part_one():
 def part_two():
     print("This is in the bottom part")
 
-
-# Problem 32: Quick suggestion
-# Task: replace function with another function
-# Hint: Hover over function Ctrl+spacebar
-sorted([3, 1, 2])
-len("test")
-sum([1, 2, 3])
 
 
 # Problem 33: Extract Variable Refactoring
