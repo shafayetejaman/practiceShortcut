@@ -27,7 +27,7 @@ def divide(a, b):
 # Problem 16: Multi-Cursor on Multiple Lines
 # Task: Add a default value `= 0` to all the function arguments.
 # Hint: Place the cursor on the first parameter. Press `Alt + Click` on each argument
-#       or use `Ctrl + Alt + Down Arrow` for multi-line editing.
+#       or use `ea` and for vim motions.
 def calculate_total(price, discount, tax):
     return price - discount + tax
 
@@ -41,8 +41,7 @@ print(settings)  # type: ignore
 
 # Problem 18: Surround with Quotes
 # Task: Wrap the variable `greeting` with double quotes.
-# Hint: Select `Hello`, press `Shift + "`, or use `Ctrl + Shift + P`
-#       to open the Command Palette and search for "Surround with Quotes".
+# Hint: Select `Hello`, press `ysiw"` or yss" for hole line
 def assign(Hello: str) -> None:
     greeting = Hello
 
@@ -66,8 +65,8 @@ settings = {"dark_mode": False, "notifications": False, "auto_save": False}
 
 # Problem 23: Collapse and Expand Code
 # Task: Collapse the `hello_world` function and then expand it.
-# Hint: Click the `-` icon next to the function or press `shift + alt + j`
-#       to collapse all code. Press `Ctrl + Shift + J` to expand all.
+# Hint: Click the `-` icon next to the function or press `za` to toggle collaps and `zM` 
+#       to collapse all code. Press `zR` to expand all.
 
 
 def hello_world():
@@ -91,7 +90,7 @@ def add(a, b):
 
 # Problem 26: Goto next reference
 # Task: Switch to the next reference or previous reference position
-# Hint: Use 'Ctrl+m'
+# Hint: Use '*'
 
 
 class NewUser:
@@ -106,7 +105,7 @@ print(user.name)
 
 # Problem 27: indent farther
 # Task: Switch to the next reference or previous reference position
-# Hint: Use "Ctrl+'[' \ ']'"
+# Hint: Use `>>` or `<<` indent line or use `V` to select muliline then `>` or `<` to indent multiline.
 
 
 class NewUser2:
