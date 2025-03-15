@@ -41,14 +41,14 @@ print(settings)  # type: ignore
 
 # Problem 18: Surround with Quotes
 # Task: Wrap the variable `greeting` with double quotes.
-# Hint: Select `Hello`, press `ysiw"` or yss" for hole line
+# Hint: Select `Hello`, press `ysiw"`
 def assign(Hello: str) -> None:
     greeting = Hello
 
 
 # Problem 32: Convert the sorted functin to and array
 # Task: arr = [sorted([3, 1, 2])]
-# Hint: yss[
+# Hint: yss[ for hole line
 sorted([3, 1, 2])
 len("test")
 sum([1, 2, 3])
