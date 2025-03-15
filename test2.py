@@ -156,3 +156,12 @@ def debug_section():
     y = 20
     z = 30
     print(x + y + z)
+
+# Problem 35: copy word 
+# Task: replace x, y, z to 10, 20, 30 using yiw and p
+# Hint: Select lines and use Ctrl+/
+def debug_section2():
+    x = 10
+    y = 20
+    z = 30
+    print()
