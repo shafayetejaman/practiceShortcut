@@ -24,7 +24,7 @@ y = x
 
 // Problem 9: Navigate Between Matching Brackets
 // Task: Move between `{}` brackets.
-// Hint: Use `%` in Vim.
+// Hint: Use `[{` or `]}` in Vim.
 function example()
 {
     if (true)
