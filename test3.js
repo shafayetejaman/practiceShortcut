@@ -7,7 +7,7 @@ const activeVar = "Hello";
 
 // Problem 4: Wrap with Parentheses
 // Task: Wrap `number * 2` with parentheses.
-// Hint: Use `ysw(` in Vim.
+// Hint: Use `vt;d` then p to paste in Vim.
 const double = number * 2;
 
 // Problem 5: Change Word
