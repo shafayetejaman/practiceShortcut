@@ -1,6 +1,6 @@
 // Problem 2: Delete a Line
 // Task: Remove the line with `const unusedVar = 42;`.
-// Hint: Use `dd` in Vim or `Ctrl + Shift + K` in VS Code.
+// Hint: Use `dd` in Vim or in VS Code.
 const unusedVar = 42;
 const activeVar = "Hello";
 
