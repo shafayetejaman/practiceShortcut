@@ -39,11 +39,11 @@ def subtract(a, b):
 
 Temp = 25
 if Temp > 30:
-    print("It's hot!")
+    print("It's hot! the Temp is high")
 elif Temp > 40:
-    print("It's very hot!")
-elif Temp > 50:
-    print("It's supper hot!")
+    print("It's very hot! Them is vary high")
+elif Temp < 20:
+    print("It's cold!")
 
 # Hint: Use `Ctrl + Shift + L` to select the next occurrence.
 
