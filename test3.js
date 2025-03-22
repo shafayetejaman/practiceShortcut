@@ -12,7 +12,7 @@ const double = number * 2;
 
 // Problem 5: Change Word
 // Task: Replace `red` with `blue`.
-// Hint: Place the cursor on `red` and press `ciw`, then type `blue`.
+// Hint: Place the cursor on `red` and press `ci"`, then type `blue`.
 const color = "red";
 
 // Problem 8: Swap Variables
