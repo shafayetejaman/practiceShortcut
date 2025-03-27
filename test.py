@@ -154,3 +154,14 @@ font = "nardfont"
 # Task: Use shortcut to quickly reopen last closed tab.
 
 # Hint: Use `Ctrl + shift + t` to reopen the tab.
+
+# Problem 18 make copy and increment each one 
+# Task: print(10)
+#       print(11)
+#       print(12)
+#       print(13)
+#       print(14)
+
+# Hint: Use `alt+shift+Down` to copy down then `V5g<Space>a` to increment
+
+print(10)
