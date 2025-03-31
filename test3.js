@@ -32,3 +32,14 @@ function example()
         console.log("Inside block");
     }
 }
+
+// Problem 10: Navigate Between Matching Brackets
+// Task: Move between `{}` brackets of the functions.
+// Hint: Use `[[` or `]]` in Vim.
+function example2()
+{
+    if (true)
+    {
+        console.log("Inside block");
+    }
+}
