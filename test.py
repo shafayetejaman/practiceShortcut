@@ -107,7 +107,7 @@ font = "nard font"
 # Hint: Use  `Cmd + Alt + up/down` to replace all.
 
 # Problem 12 edit the lines and go to last edit cursor position
-# Task: Uppercase all occurrences of the word `font` with `FONT` then revrse it just after that.
+# Task: Uppercase all occurrences of the word `font` with `FONT` then revrse it just after that using `gUw` to uppercase and `guw` to lowercased.
 
 font = "arial"
 font = "new roman"
@@ -115,16 +115,7 @@ font = "roboto"
 font = "nard font"
 
 # Hint: Use  `Cmd + y ` to go to the last edit cursor possition.
-
-# Problem 13 go to each lines and go to last cursor position
-# Task: go to all the occurrence of the word then reverse travel just after that.
-
-font = "arial"
-font = "new roman"
-font = "roboto"
-font = "nard font"
-
-# Hint: Use  `Cmd + U ` to go to the last cursor possition.
+#`Cmd + U ` to go to the last cursor possition.
 
 
 # Problem 14 remove the text from the ""
