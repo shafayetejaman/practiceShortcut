@@ -153,6 +153,6 @@ font = "nardfont"
 #       print(13)
 #       print(14)
 
-# Hint: Use `alt+shift+Down` to copy down then select all then `g<Space>a` to increment
+# Hint: Use `alt+shift+Down` to copy down then select all then `g<alt+a>` to increment
 
 print(10)
