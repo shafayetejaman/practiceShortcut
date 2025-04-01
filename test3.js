@@ -43,3 +43,14 @@ function example2()
         console.log("Inside block");
     }
 }
+
+// Problem 11: comment without selecting. 
+// Task: comment out the inner block. 
+// Hint: Use `gc3j` . 
+function example3()
+{
+    if (true)
+    {
+        console.log("Inside block");
+    }
+}
