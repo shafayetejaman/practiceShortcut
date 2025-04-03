@@ -148,16 +148,8 @@ def calculate_price():
     return 100 * 1.2 + (100 * 1.2 * 0.15)
 
 
-# Problem 34: Toggle Line Comment
-# Task: Comment/uncomment multiple lines at once
-# Hint: Select lines and use Ctrl+/
-def debug_section():
-    x = 10
-    y = 20
-    z = 30
-    print(x + y + z)
 
-# Problem 35: copy word 
+# Problem 34: copy word 
 # Task: replace x, y, z to 10, 20, 30 using yiw and p
 # Hint: Select lines and use Ctrl+/
 def debug_section2():
